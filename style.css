@@ -145,7 +145,7 @@ nav .navlinks li a:hover{
     nav .navlinks{
         position: absolute;
         top: 110px;
-        right: -100%;
+        right: 0;
         bottom: 0;
         width: 60%;
         height: 100vh;
