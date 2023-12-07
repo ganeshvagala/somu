@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh Vagala</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome CDN for Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="hero-header">
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <div class="logo-text"><img src="assets/TeachNook-logo.svg"></div>
+            </div>
+            <nav>
+
+                <div class="togglebtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <ul class="navlinks">
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Home</a></li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <div class="container">
+           
+        </div>
+    </div>
+
+    <div class="container1">
+        <div class="heading">
+            <h2>Learn.</h2>
+            <h2>Lead.</h2>
+            <h2>Grow.</h2>
+        </div>
+        <div class="images">
+            <div class="image">
+                <img src="assets/person1.png" alt="Image 1">
+                <h3>Heading</h3>
+            </div>
+            <div class="image">
+                <img src="assets/person2.png" alt="Image 2">
+                <h3>Heading</h3>
+            </div>
+            <div class="image">
+                <img src="assets/person3.png" alt="Image 3">
+                <h3>Heading</h3>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+    var togglebtn=document.querySelector(".togglebtn");
+    var nav=document.querySelector(".navlinks");
+    var links=document.querySelector(".navlinks li");
+
+    togglebtn.addEventListener("click",function(){
+        this.classList.toggle("click");
+        nav.classList.toggle("open");
+    })
+</script>
+</body>
+</html>
