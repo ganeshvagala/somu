@@ -143,6 +143,7 @@ nav .navlinks li a:hover{
     }
 
     nav .navlinks{
+        overflow: hidden;
         position: absolute;
         top: 110px;
         right: -60%;
